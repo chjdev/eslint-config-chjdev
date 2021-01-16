@@ -20,7 +20,8 @@
   "homepage": "https://github.com/chjdev/typescript#readme",
   "main": "lint/index.js",
   "peerDependencies": {
-    "tslib": "^2.1.0"
+    "tslib": "^2.1.0",
+    "eslint": "^7.18.0",
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-react-native": "^3.10.0"
@@ -39,7 +40,6 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.13.0",
     "@typescript-eslint/parser": "^4.13.0",
-    "eslint": "^7.18.0",
     "eslint-config-prettier": "^7.1.0",
     "eslint-import-resolver-typescript": "^2.3.0",
     "eslint-plugin-import": "^2.22.1",
@@ -51,7 +51,7 @@
   "scripts": {
     "lint:self": "eslint -c lint/common.js --ext .js,.jsx,.ts,.tsx .",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
-    "lint:watch": "esw -w --clear --ext .js,.jsx,.ts,.tsx .",
+    "lint:watch": "esw -w --color --clear --ext .js,.jsx,.ts,.tsx .",
     "build": "tsc",
     "build:watch": "tsc -w"
   }

@@ -2,7 +2,6 @@
   "compilerOptions": {
     "allowJs": false,
     "allowSyntheticDefaultImports": true,
-    "baseUrl": "./src",
     "checkJs": false,
     "downlevelIteration": true,
     "esModuleInterop": true,
@@ -21,10 +20,11 @@
     "importHelpers": true,
     "moduleResolution": "node",
     "noUnusedLocals": true,
+    "outDir": "../../../lib",
     "resolveJsonModule": true,
     "sourceMap": true,
     "target": "ES5"
   },
-  "include": ["src/**/*"],
+  "include": ["../../../src/**/*"],
   "exclude": ["**/node_modules", "**/build", "**/dist", "**/public", "**/__tests__", "**/*.test.ts", "**/*.spec.ts"]
 }

@@ -1,5 +1,5 @@
 {
-  "extends": "@chjdev/tsconfig/common.json",
+  "extends": "eslint-config-chjdev/tsconfig/common.json",
   "compilerOptions": {
     "lib": ["dom", "dom.iterable", "esnext"]
   }
