@@ -40,4 +40,4 @@ Set up a tsconfig file that extends from the provided base configs, e.g.:
 }
 ```
 
-
+*Note: I would have added baseURL to the shared config but the eslint import plugin doesn't like it*
