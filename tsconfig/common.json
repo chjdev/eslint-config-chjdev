@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./src",
+    "checkJs": false,
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["esnext"],
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es5",
+    "declaration": true,
+    "declarationMap": true, 
+    "jsx": "preserve", 
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "target": "ES5"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["**/node_modules", "**/build", "**/dist", "**/public", "**/__tests__", "**/*.test.ts", "**/*.spec.ts"]
+}

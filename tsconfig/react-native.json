@@ -1,0 +1,7 @@
+{
+  "extends": "@chjdev/tsconfig/react.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "jsx": "react-native"
+  }
+}
