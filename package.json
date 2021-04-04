@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-chjdev",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "Common typescript and qa toolchains",
   "repository": {
     "type": "git",
