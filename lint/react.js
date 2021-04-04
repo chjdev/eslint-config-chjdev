@@ -51,5 +51,7 @@ module.exports = {
     "react-hooks/exhaustive-deps": "error",
     // done by typescript anyway and causes props with arro fns
     "react/prop-types": "off",
+    // not necessary in 17+
+    "react/react-in-jsx-scope": "off",
   },
 };
