@@ -13,7 +13,6 @@ module.exports = {
     "plugin:import/warnings",
     "plugin:import/typescript",
     "plugin:import/recommended",
-    "prettier/@typescript-eslint",
   ],
   settings: {
     // required by import plugin for typescript
