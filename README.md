@@ -21,8 +21,7 @@ Configure eslint and prettier by extending the provided configs (or using them d
   "eslintConfig": {
     "extends": "chjdev/lint/react",
     "env": {
-      "browser": false,
-      "node": true
+      "browser": true
     }
   }
 }
